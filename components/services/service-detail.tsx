@@ -19,12 +19,12 @@ export default function ServiceDetail({ id }: { id: string }) {
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <motion.div 
-            className="lg:w-1/2"
+            className="lg:w-1/2 w-full"
             initial={fadeInLeft.initial}
             whileInView={fadeInLeft.animate}
             viewport={{ once: true }}
           >
-            <div className="relative h-[400px] rounded-lg overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[400px] rounded-lg overflow-hidden shadow-lg">
               <Image 
                 src={service.image} 
                 alt={service.title}

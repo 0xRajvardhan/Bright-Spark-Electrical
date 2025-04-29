@@ -29,7 +29,7 @@ export default function Cta() {
               <Link href="/contact">Request a Quote</Link>
             </Button>
             <Button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10" size="lg" asChild>
-              <Link href="tel:5551234567" className="flex items-center">
+              <Link href="tel:5551234567" className="flex bg-gray-900 items-center">
                 <Phone className="mr-2 h-5 w-5" />
                 {SITE_CONFIG.phone}
               </Link>
